@@ -38,3 +38,26 @@
 > | StringBuilder was introduced in java 1.5. | StringBuffer was introduced in java 1.0. |
 
 <br> <br>
+**7. Can you give examples of different utility methods in String class?** 
+> *Answer:* Here are some examples of different utility methods in String class: <br>
+> 1. length(): returns the length of string in characters. <br>
+>             - String str = "Java"; <br>
+>             - int length = str.length(); // length is 4 <br> <br>
+> 
+> 2. charAt(int index): returns the character at the specified index in the string. <br>
+>                      - String str = "Java"; <br>
+>                      - char ch = str.charAt(0); // ch is 'J' <br> <br>
+> 
+> 3. substring(int start, int end): returns a substring starting at the specified begin index and ending at the specified end index (exclusive). <br>
+>                                  - String str = "Java";
+>                                  - String sub = str.substring(1, 3); // sub is av <br> <br>
+> 
+> 4. toUpperCase(): returns a new string that is the original string converted to uppercase. <br>
+>                  - String str = "Java"; <br>
+>                  - String upper = str.toUpperCase() // upper is JAVA <br> <br>
+>
+> 5. toLowerCase(): returns a new string that is the original string converted to lowercase. <br>
+>                  - String str = "JAVA"; <br>
+>                  - String lower = str.toLowerCase(); // lower is java <br> <br>
+> 
+> There are many other utility methods of string class like; trim(), replace(char oldCh, char newCh), startsWith(String prefix), endsWith(String suffix).
