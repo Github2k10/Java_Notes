@@ -18,3 +18,13 @@
 > *Answer:* To avoid this problem, it is recommended to use 'StringBuilder' or 'StringBuffer' instead of the '+' operator for string concatenation in loops. These classes provide more efficient ways to build strings, by creating a single mutable buffer for the string and appending to it in each iteration of the loop. 
 
 <br> <br>
+**5. What are differences between String and StringBuffer?**
+> *Answer:* <br>
+> | String | StringBuffer |
+> | ------ | ------------ |
+> | The string class is immutable. | The StringBuffer class is mutable. |
+> | It is slow and consumes more memory when we concatenate strings. | It is fast and consumes less memory when we concatenate strings. |
+> | String class overrides the equals method of Object class to perform comparison. | StringBuffer class doesn't override the equal method for comparing two strings. |
+> | String class uses string constant pool. | StringBuffer uses heap memory. |
+
+<br> <br>
