@@ -28,3 +28,13 @@
 > | String class uses string constant pool. | StringBuffer uses heap memory. |
 
 <br> <br>
+**6. What are differences between StringBuilder and StringBuffer?**
+> *Answer:* <br>
+> | StringBuilder | StringBuffer |
+> | ------------- | ------------ |
+> | StringBuilder is non-synchronized. | StringBuffer is synchronized. |
+> | StringBuilder is not thread safe. | StringBuffer is thread safe, means two threads can't call the methods of StringBuffer simultaneously. |
+> | StringBuilder is more efficient than StringBuffer. | StringBuffer is less efficient than StringBuilder. |
+> | StringBuilder was introduced in java 1.5. | StringBuffer was introduced in java 1.0. |
+
+<br> <br>
