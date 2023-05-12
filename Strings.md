@@ -14,3 +14,7 @@
 > *Answer:* In java, '+' operator is used to create a new string object by concatenating the strings. When we are using concatenation in a loop, it will create a new string each time that lead to a significant number of string objects being created, which can have a negative impact on performance and memory usage.
 
 <br> <br>
+**4. How do you solve above problem?**
+> *Answer:* To avoid this problem, it is recommended to use 'StringBuilder' or 'StringBuffer' instead of the '+' operator for string concatenation in loops. These classes provide more efficient ways to build strings, by creating a single mutable buffer for the string and appending to it in each iteration of the loop. 
+
+<br> <br>
