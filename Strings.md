@@ -10,3 +10,7 @@
 > When a string is created using a string literal, such as "Java", java first checks if the string is already present in the string pool. If the string is not present, java creates a new string a new string object and adds it to the pool. If the string is already present in the pool, java simply returns a reference to the existing string object in the pool.
 
 <br> <br>
+**3. Why should you be careful about String Concatenation(+) operator in Loops?**
+> *Answer:* In java, '+' operator is used to create a new string object by concatenating the strings. When we are using concatenation in a loop, it will create a new string each time that lead to a significant number of string objects being created, which can have a negative impact on performance and memory usage.
+
+<br> <br>
