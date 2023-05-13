@@ -23,3 +23,9 @@
 > In other words, the more closely related stuff is grouped in a class, the higher will be the cohesiveness.
 
 <br> <br>
+
+**5. What is Encapsulation?**
+> *Answer:* Encapsulation is a fundamental concept in object-oriented programming that refers to the practice of hiding the internal details of an object from the outside world and exposing only necessary interfaces or methods for interacting with it. It allows for better organization and abstraction of code, and provides a mechanism for data hiding and access control. <br>
+> In Java, encapsulation is achieved through the use of access modifiers such as private, protected, and public. Private members or methods are only accessible within the same class, while protected members or methods are accessible within the same package and to subclass. Public members or methods are accessible to all classes and package. 
+
+<br> <br>
