@@ -17,3 +17,9 @@
 > In other words, we can say that it is used to check who much component B dependent on component A. If we make any change in component A, how it's reflected on component B.
 
 <br> <br>
+
+**4. What is Cohesion?**
+> *Answer:* Cohesion refers to the degree to which the elements within a single module or component of a software system work together to achieve a specific purpose. It is a measure of how strongly related the functions and responsibilities of a module are to each other. <br>
+> In other words, the more closely related stuff is grouped in a class, the higher will be the cohesiveness.
+
+<br> <br>
