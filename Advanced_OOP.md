@@ -56,3 +56,23 @@
 >}
 
 <br> <br>
+
+**8. Can you create an inner class inside a method?**
+> *Answer:* Yes, in java it is possible to define an inner class inside a method. This type of inner class is called a local inner class, and it is defined within the body of a method. <br>
+> Example: <br>
+> public class OuterClass{ <br>
+> private int k = 10; <br> <br>
+> public void example(){ <br>
+> final int data = 20; <br> <br>
+> class LocalInnerClass{ <br>
+> public void printData(){ <br>
+> System.out.println("Outer data: " + k); <br>
+> System.out.println("inner data: " + data); <br>
+> } <br>
+> } <br> <br>
+> LocalInnerClass innerClass = new LocalInnerClass(); <br>
+> inner.printData(); <br>
+> } <br>
+> }
+
+<br> <br>
