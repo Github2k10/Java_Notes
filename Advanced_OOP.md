@@ -29,3 +29,13 @@
 > In Java, encapsulation is achieved through the use of access modifiers such as private, protected, and public. Private members or methods are only accessible within the same class, while protected members or methods are accessible within the same package and to subclass. Public members or methods are accessible to all classes and package. 
 
 <br> <br>
+
+**6. What is an Inner Class?**
+> *Answer:* In Java, an inner class is a class that is defined within another class. It is also sometimes referred to as a nested class because it is nested inside another class. Inner class have access to the members of the outer class, including its private members, and can be used to encapsulate related functionality within a single class. <b>
+> There are four types of inner classes in java: <br>
+> 1. Member inner class: This is the most common type of inner class, and is defined at the member level of the outer class. It has access to the instance variables and methods of the outer class, and can be instantiated only within an instance of the outer class. <br>
+> 2. Static inner class: This is an inner class that is marked as static. It does not have access to the instance of variables or methods of the outer class, but can be instantiated independently of any instances of the outer class. <br>
+> 3. Local inner class: This in an inner class that is defined within a method or block of code. It has access to the local variables of the enclosing methods or block, and can only be used within that method or block. <br>
+> 4. Anonymous inner class: This is a type of local inner class that does not have a name and is defined inline. It is typically used to define a class that implements an interface or extends a class without creating a separate subclass. <br>
+
+<br> <br>
