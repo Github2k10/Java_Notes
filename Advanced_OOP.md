@@ -39,3 +39,20 @@
 > 4. Anonymous inner class: This is a type of local inner class that does not have a name and is defined inline. It is typically used to define a class that implements an interface or extends a class without creating a separate subclass. <br>
 
 <br> <br>
+
+**7. What is a Static Inner Class?**
+> *Answer:* Static inner class is an inner class that is marked as static. It does not have access to the instance of variables or methods of the outer class, but can be instantiated independently of any instances of the outer class. <br>
+> Example: <br>
+> public class OuterClass{ <br>
+> private static int n = 20; <br> <br>
+> public static class InnerClass{ <br>
+> private int k; <br> <br>
+> public InnerClass(int data){ <br>
+> k = data; <br>
+> } <br> <br>
+> public int getN(){ return k;} <br>
+> public int getK(){ return n;} <br>
+> } <br>
+>}
+
+<br> <br>
