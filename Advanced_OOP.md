@@ -11,3 +11,9 @@
 > Example: myObject instanceof MyClass ? true : false ;
 
 <br> <br>
+
+**3. What is Coupling?**
+> *Answer:* Coupling refers to degree of interdependence between classes or components within a software system. It is a measure of how closely connected two or more classes are, and how much they rely on each other of function. <br>
+> In other words, we can say that it is used to check who much component B dependent on component A. If we make any change in component A, how it's reflected on component B.
+
+<br> <br>
