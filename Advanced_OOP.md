@@ -5,3 +5,9 @@
 > Example: if we have a superclass 'Animal' and two subclasses 'Dog' and 'Cat', then we can treat objects of both classes as 'Animal' object. 
 
 <br> <br>
+
+**2. What is the use of instanceof Operator in Java?**
+> *Answer:* The 'instanceof' operator is used to check if an object is an instance of a particular class or interface. The operator returns a boolean value; 'true' if the object is an instance of the specified class or interface, and 'false' otherwise. <br>
+> Example: myObject instanceof MyClass ? true : false ;
+
+<br> <br>
