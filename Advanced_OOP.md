@@ -76,3 +76,12 @@
 > }
 
 <br> <br>
+
+**9. What is an Anonymous Class?**
+> *Answer:* In Java, an anonymous clas is a local class that is declared and instantiated in a single expression, without assigning it to a variable or giving it a name. Anonymous classes are typically used to define a subclass of a class or implement an interface, without creating a separate class definition. <br>
+> Example: <br>
+> Thread thread = new Thread(new Runnable(){ <br>
+> public void run(){ <br>
+> System.out.println("Thread is running"); <br>
+> } <br>
+> });
