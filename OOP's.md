@@ -36,3 +36,14 @@
 > The default implementation of the equals() method in the Object class simply compares two objects are reference equality, which means that is returns true only if the two object references point to the same object in memory.
 
 <br> <br>
+
+**7. What are the important things to consider when implementing equals method?**
+> *Answer:* While implementing the equals() method in java class, there are several important things to consider:
+> 1. The equals() method should always return the same result when called with the same object. <br>
+> 2. The equals() method should always return true when called with the same object. <br>
+> 3. The equals() method should always return false if it is called with a 'null' parameter. <br 
+> 4. The equals() method should always return false if it is called with an object of a different class. <br>
+> 5. The equals() method should always return true if it is called with an object having the same reference or pointing the same object. <br>
+> 6. The equals() method should always compare the state of objects to determine equality. In other words, it should compare all the fields of the object that contribute to its identity. 
+
+<br> <br>
