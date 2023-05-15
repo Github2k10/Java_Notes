@@ -47,3 +47,9 @@
 > 6. The equals() method should always compare the state of objects to determine equality. In other words, it should compare all the fields of the object that contribute to its identity. 
 
 <br> <br>
+
+**8. What is the hashCode method used for in Java?**
+> *Answer:* In Java, the hashCode() method is used to generate a hash code (a unique identifier) for an object. The hash code is an integer value that is used to identify in hash-based data structures such as hash tables, hash maps, and hash sets. <br>
+> It is necessary ot override the hashCode() methode in a class to provide a more meaningful hash code based on the state of the object. If two objects are equals, according to their equals() method, they should be also have the same hash code. 
+
+<br> <br>
