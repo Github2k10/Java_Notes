@@ -79,3 +79,8 @@
 > *Answer:* Method overriding is a feature in java that allows a subclass to override or re-define a method with their own implementation that is already defined in the superclass. When a method is overridden, it has the same name, return type, and parameter list as the method in the superclass have, but with a different implementation.
 
 <br> <br>
+
+**12. Can super class reference variable can hold an object of subclass?**
+> *Answer:* Yes, a superclass reference variable can hold an object of a subclass. This is known as upcasting, and it allows for polymorphic behavior in Java.
+
+<br> <br>
