@@ -84,3 +84,8 @@
 > *Answer:* Yes, a superclass reference variable can hold an object of a subclass. This is known as upcasting, and it allows for polymorphic behavior in Java.
 
 <br> <br>
+
+**13. Is Multiple Inheritance allowed in Java?**
+> *Answer:* Java does not support multiple inheritance of classes, means a class cannot inherit from more than one class or one class cannot not have more than one parent class at the same time. This can lead ot ambiguities in the inheritance hierarchy and make the code harder to maintain.
+
+<br> <br>
