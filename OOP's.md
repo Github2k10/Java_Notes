@@ -6,7 +6,8 @@
 > Syntax:
 > class class_Name{ //Variables and methods }
 > 
-<br> <br>
+<br> 
+<br>
 
 **2. What is state of object?**
 > *Answer:* The state of an object in Java refers to the current values of its attributes or properties (represented by instance variables), which can change over time as the object's methods are invoked and its state is modified. <br>
