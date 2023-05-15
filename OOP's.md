@@ -53,3 +53,19 @@
 > It is necessary ot override the hashCode() methode in a class to provide a more meaningful hash code based on the state of the object. If two objects are equals, according to their equals() method, they should be also have the same hash code. 
 
 <br> <br>
+
+**9. Explain inheritance with Examples?**
+> *Answer:* Inheritance in java is a mechanism in which one class acquires all the properties and behaviors of a parent class. The idea behind inheritance in java is that we can create new classes that are built upon existing classes. When we inherit from an existing class, we can reuse methods and fields of the parent class. <br>
+> Inheritance represents the IS-A relationship which is also known as a parent-child relationship. <br>
+> extends keyword is used to inherit an existing class. <br>
+> Syntax: class SubClass_Name extends SuperClass_Name{} <br> <br>
+> Example: <br>
+> class vehicle { <br>
+>   void print(String str){ System.out.println(str); } <br>
+> } <br> <br>
+> class Car extends vehicle{ <br>
+>   void start(){ print("car started")}; <br>
+>   void stop(){ print("car stopped");} <br>
+> }
+
+<br> <br>
