@@ -24,3 +24,9 @@
 > *Answer:* Object class is super class of every class.
 
 <br> <br>
+
+**5. Explain about toString method ?**
+> *Answer:* In java, toString() method is defined in the object class, and it is inherited by all other classes. The purpose of the toString() method is to provide a string representation of the object. <br>
+> The default implementation of the toString() method in the Object class returns a string that consists of the name of the object's class, followed by an '@' sign and the hexadecimal representation of the object's hash code.
+
+<br> <br>
