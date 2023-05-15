@@ -13,3 +13,9 @@
 > *Answer:* The state of an object in Java refers to the current values of its attributes or properties (represented by instance variables), which can change over time as the object's methods are invoked and its state is modified. <br>
 
 <br> <br>
+
+**3. What is behavior of an Object?**
+> *Answer:* The behavior of an object in java refers to the actions or operations that the object can perform. These actions or operations are defined by the methods of the object class, and can be invoked by methods on the object. <br>
+> In simpler terms, the behavior of an object refers to what the object can do or how it can interact with objects or the system as a whole.
+
+<br> <br>
