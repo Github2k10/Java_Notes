@@ -69,3 +69,8 @@
 > }
 
 <br> <br>
+
+**10. What is Method Overloading?**
+> *Answer:* Method overloading is a feature in java that allows a class to have multiple methods with the same name, but different signature. When a method is overloaded, it has the same name as another method have in the same class, but the number of parameters or type of parameters of the two or more methods are different. This allows the programmer to reuse the same method name in different contexts, improving the readability and maintainability of the code. 
+
+<br> <br>
