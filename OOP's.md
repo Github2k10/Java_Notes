@@ -19,3 +19,8 @@
 > In simpler terms, the behavior of an object refers to what the object can do or how it can interact with objects or the system as a whole.
 
 <br> <br>
+
+**4. What is the super class of every class in Java?**
+> *Answer:* Object class is super class of every class.
+
+<br> <br>
