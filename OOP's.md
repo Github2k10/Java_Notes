@@ -30,3 +30,9 @@
 > The default implementation of the toString() method in the Object class returns a string that consists of the name of the object's class, followed by an '@' sign and the hexadecimal representation of the object's hash code.
 
 <br> <br>
+
+**6. What is the use of equals method in Java ?**
+> *Answer:* In Java, the equals() method is defined in the Object class, and it is inherited by all other classes. The purpose of the equals() method is to determine whether two objects are equal. <br>
+> The default implementation of the equals() method in the Object class simply compares two objects are reference equality, which means that is returns true only if the two object references point to the same object in memory.
+
+<br> <br>
