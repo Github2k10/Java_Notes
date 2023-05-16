@@ -34,3 +34,11 @@
 > 13. toArray(T[] a): This method returns an array containing all elements in the collection, using the specified array if it is large enough; otherwise, a new array is allocated. 
 
 <br> <br>
+
+**4. Can you explain briefly about the List Interface?**
+> *Answer:* List in Java provides the facility to maintain the ordered collection. It contains the index-based methods to insert, update, delete, and search the elements. It can have the duplicate elements also. We can also store the null elements in the list. <br>
+> The List interface is found in the java.util package and inherits the Collection interface. It is a factor of ListIterator interface. Through the ListIterator, we can iterate the list in forward and backward directions. The implementation classes of List interface are ArrayList, LinkedList, Stack and Vector. <br>
+> List Interface declaration: public interface List<E> extends Collection<E> <br> <br>
+> Some of the important methods that are declared int the List interface are add(int, E element), get(int index), indexOf(Object o), lastIndexOf(Object o), remove(int index), set(int index, E element), subList(int from index, int index).
+
+<br> <br>
