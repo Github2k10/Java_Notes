@@ -28,3 +28,8 @@
 > *Answer:* When we declare any method or instance variable with protected access modifier, this means that the method or instance variable can only accessible within the same package as the declaring class and within any subclasses in different package.
 
 <br> <br>
+
+**5. What is public access modifier?**
+> *Answer:* The 'public' access modifier is used to specify that a class member(field, method, or nested class) is accessible from anywhere in the program. A public member can be accesseed by any other class in the same package or in any other package, and can be used as part of the public interface of a class or library. 
+
+<br> <br>
