@@ -1,0 +1,7 @@
+# Part-7: Collections
+
+**1. Why do we need Collections in Java?**
+> *Answer:* Collections are an essential part of Java programming as they provide a way to store and manipulate groups of objects efficiently. They offer a flexible, reusable, and easy-to-use solution for storing and managing data in a program. <br>
+> Collection provide efficient storage and retrieval, dynamic data structures, polymorphism, and standardized interfaces that's make collections important part of Java programming.
+
+<br> <b>
