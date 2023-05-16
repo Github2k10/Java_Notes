@@ -73,3 +73,7 @@
 > *Answer:* A 'final' argument is a method parameter that is marked with the 'final' keyword. Once a method parameter is marked as 'final', its value cannot be changed withing the method.
 
 <br> <br>
+
+
+**14. What is a Static Variable?**
+> *Answer:* A 'static' variable is a variable that belongs to a class rather than an instance of that class. This means that all instances of the class share the same 'static' variable.
