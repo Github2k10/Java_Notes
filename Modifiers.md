@@ -63,3 +63,8 @@
 > *Answer:* The 'final' modifier on a method means that the method cannot be overload or overridden by any subclass. 
 
 <br> <br>
+
+**12. What is a Final Variable?**
+> *Answer:* A 'final' variable is a variable whose value cannot be changed once it has been initialized. 
+
+<br> <br>
