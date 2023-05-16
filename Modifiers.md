@@ -68,3 +68,8 @@
 > *Answer:* A 'final' variable is a variable whose value cannot be changed once it has been initialized. 
 
 <br> <br>
+
+**13. What is a Final Argument?**
+> *Answer:* A 'final' argument is a method parameter that is marked with the 'final' keyword. Once a method parameter is marked as 'final', its value cannot be changed withing the method.
+
+<br> <br>
