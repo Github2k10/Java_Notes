@@ -19,3 +19,7 @@
 > }
 
 <br> <br>
+
+**3. What is default or package access modifier?**
+> *Answer:* When we declare a class, method, or instance variable without any access modifier, then it is considered to have a default access modifier. This means that the class, method, or instance variable can only visible or access within the same package, and cannot be accessed from outside of the package.
+<br> <br>
