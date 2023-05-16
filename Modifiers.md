@@ -23,3 +23,8 @@
 **3. What is default or package access modifier?**
 > *Answer:* When we declare a class, method, or instance variable without any access modifier, then it is considered to have a default access modifier. This means that the class, method, or instance variable can only visible or access within the same package, and cannot be accessed from outside of the package.
 <br> <br>
+
+**4. What is protected access modifier?**
+> *Answer:* When we declare any method or instance variable with protected access modifier, this means that the method or instance variable can only accessible within the same package as the declaring class and within any subclasses in different package.
+
+<br> <br>
