@@ -58,3 +58,8 @@
 > *Answer:* The 'final' modifier on a class means that the class cannot be extended or modified by any other class. This is used for security, efficiency, and design of the class.
 
 <br> <br>
+
+**11. What is the use of a final modifier on a method?**
+> *Answer:* The 'final' modifier on a method means that the method cannot be overload or overridden by any subclass. 
+
+<br> <br>
