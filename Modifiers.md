@@ -33,3 +33,8 @@
 > *Answer:* The 'public' access modifier is used to specify that a class member(field, method, or nested class) is accessible from anywhere in the program. A public member can be accesseed by any other class in the same package or in any other package, and can be used as part of the public interface of a class or library. 
 
 <br> <br>
+
+**6. What access types of variables can be accessed from a Class in Same Package?**
+> *Answer:* A class in the same package can access all variables with the 'default', 'protected', and 'public' access modifiers declared in another class within the same package.
+
+<br> <br>
