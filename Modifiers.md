@@ -43,3 +43,8 @@
 > *Answer:* A class in the different package can access all variables with the 'default', 'protected', and 'public' access modifiers declared in another class within the same package.
 
 <br> <br>
+
+**8. What access types of variables can be accessed from a Sub Class in Same Package?**
+> *Answer:* A sub class in same package can access all variables with the 'default', 'protected', and 'public' access modifiers declared in another class within the same package.
+
+<br> <br>
