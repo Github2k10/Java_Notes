@@ -53,3 +53,8 @@
 > *Answer:* A sub class in the different package can access all variables with the 'protected' and 'public' access modifiers declared in another class within the same package.
 
 <br> <br>
+
+**10. What is the use of a final modifier on a class?**
+> *Answer:* The 'final' modifier on a class means that the class cannot be extended or modified by any other class. This is used for security, efficiency, and design of the class.
+
+<br> <br>
