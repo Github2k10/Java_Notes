@@ -170,3 +170,57 @@
 > 9 Charlie 
 
 <br> <br>
+
+**10. How do you sort elements in an ArrayList using Comparator interface?**
+> *Answer:* Here is the example to sort an ArrayList using Comparator interface: <br> <br>
+> import java.util.ArrayList; <br>
+> import java.util.Collections; <br>
+> import java.util.Comparator; <br>
+>  <br>
+> public class ArrayListComparatorExample { <br>
+> public static void main(String[] args) { <br>
+> ArrayList<Student> students = new ArrayList<Student>(); <br>
+> students.add(new Student(5, "Alice")); <br>
+> students.add(new Student(3, "Bob")); <br>
+> students.add(new Student(9, "Charlie")); <br>
+> students.add(new Student(1, "David")); <br>
+>  <br>
+> StudentComparator studentComparator = new StudentComparator(); <br>
+> Collections.sort(students, studentComparator); <br>
+>  <br>
+> for (Student student : students) { <br>
+> System.out.println(student.getId() + " " + student.getName()); <br>
+> } <br>
+> } <br>
+> } <br>
+>  <br>
+> class Student { <br>
+> private int id; <br>
+> private String name; <br>
+>  <br>
+> public Student(int id, String name) { <br>
+> this.id = id; <br>
+> this.name = name; <br>
+> } <br>
+>  <br>
+> public int getId() { <br>
+> return id; <br>
+> } <br>
+>  <br>
+> public String getName() { <br>
+> return name; <br>
+> } <br>
+> } <br>
+>  <br>
+> class StudentComparator implements Comparator<Student> { <br>
+> public int compare(Student s1, Student s2) { <br>
+> return s1.getName().compareTo(s2.getName()); <br>
+> } <br>
+> } <br> <br>
+> Output: <br>
+> 5 Alice <br>
+> 3 Bob <br>
+> 9 Charlie <br>
+> 1 David 
+
+<br> <br>
