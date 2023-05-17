@@ -301,3 +301,16 @@
 > System.out.println(set); // Output: [CSS, HTML, Java, JavaScript]
 
 <br> <br>
+
+**18. What is a TreeSet? How is different from a HashSet?**
+> *Answer:* 'TreeSet' is a class in Java implements the 'SortedSet' interface, and is used to store a collection of unique elements in a sorted order defined by their natural ordering or a custom 'Comparator'. It is implemented using a self-balancing binary search tree, which allows for log(n) time performance for basic operation like 'add()', 'remove()', and 'contains()', where n is the number of the elements in the set. <br>
+> The main difference between 'TreeSet' and 'HashSet' is that 'TreeSet' maintains a sorted order of the elements, while 'HashSet' does not maintain any particular order. This makes 'TreeSet' useful when we need to store elements in a sorted manner. <br>
+> Example: <br>
+> Set<Integer> set = new TreeSet<>();
+> set.add(3);
+> set.add(1);
+> set.add(5);
+> set.add(2);
+> System.out.println(set); // Output: [1, 2, 3, 5]
+
+<br> <br>
