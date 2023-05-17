@@ -288,3 +288,16 @@
 > *Answer:* 'HashSet', 'TreeSet', 'LinkedHashSet', and 'EnumSet' are the classes that implement the Set interface. 
 
 <br> <br>
+
+**17. What is a HashSet?**
+> *Answer:* 'HashSet' is a class in Java that implements the 'Set' interface, and is used to store a collection of unique elements in no particular order. It is implemented using hash table, which allows for constant-time performance for the basic operations like 'add()', 'remove()', and 'contains()'. <br>
+> The 'HashSet' class internally uses a 'HashMap' object to store the elements, where the keys of the 'HashMap' are the elements in the 'HashSet', and the values are dummy objects. The 'add()' method of 'HashSet' simply calls the 'put()' method of the underlying 'HashMap' with the elements as the key and the dummy object as the value. The 'remove()' and 'contains()' methods similarly call the corresponding methods of the underlying 'HashMap'. <br>
+> Example: <br>
+> Set<String> set = new HashSet<>(); <br>
+> set.add("Java"); <br>
+> set.add("HTML"); <br>
+> set.add("CSS"); <br>
+> set.add("JavaScript"); <br>
+> System.out.println(set); // Output: [CSS, HTML, Java, JavaScript]
+
+<br> <br>
