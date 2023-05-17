@@ -273,3 +273,13 @@
 > *Answer:* 'SortedSet', 'NavigableSet', 'HashSet', 'TreeSet', and 'LinkedHashSet' are the related to the Set interface. 
 
 <br> <br>
+
+**15. What is the difference between Set and SortedSet interfaces?**
+> *Answer:* <br>
+> | Set | SortedSet |
+> | --- | --------- |
+> | Elements are not stored in sorted order. | Elements are stored in sorted order. |
+> | Set interface extend by SortedSet | SortedSet interface extends Set interface. |
+> | It has several implementations, including 'HashSet', 'TreeSet', and 'LinkedHashSet'. | Only one implementation 'TreeSet' | 
+
+<br> <br>
