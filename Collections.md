@@ -314,3 +314,8 @@
 > System.out.println(set); // Output: [1, 2, 3, 5]
 
 <br> <br>
+
+**19. Can you give examples of implementations of NavigableSet?**
+> *Answer:* 'TreeSet', 'ConcurrentSkipListSet', 'SubSet', and 'DescendingSet' are the examples of implementations of NavigableSet. 
+
+<br> <br>
