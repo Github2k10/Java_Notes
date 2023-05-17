@@ -42,3 +42,29 @@
 > Some of the important methods that are declared int the List interface are add(int, E element), get(int index), indexOf(Object o), lastIndexOf(Object o), remove(int index), set(int index, E element), subList(int from index, int index).
 
 <br> <br>
+
+**5. Explain about ArrayList with an example?**
+> *Answer:* Java ArrayList class uses a dynamic array for storing the elements. It is like an array, but there is no size limit. We can add or remove elements anytime. So, it is much more flexible than the traditional array. <br>
+> The ArrayList in Java can have the duplicate elements also. It implements the List interface, so we can use all the methods or the List interface here. The ArrayList maintains the insertion order internally. <br> <br>
+> The important points about the Java ArrayList class are: 
+> - It can contain duplicate elements.
+> - It maintains insertion order.
+> - It is non synchronized.
+> - It allows random access because the array works on an index basis.
+> - Manipulation is a little bit slower than the LinkedList in java because a lot of shifting needs to occur if any element is removed from teh array list.  <b> <br>
+> Syntax: List<Integer> list = new ArrayList<>(); <br>
+> Example: <br> <br>
+> import java.util.*;  <br>
+> public class ArrayListExample1{  <br>
+> public static void main(String args[]){  <br>
+> ArrayList<String> list=new ArrayList<String>();  //Creating arraylist    <br>
+>      list.add("Java");//Adding object in arraylist    <br>
+>     list.add("HTML");    <br>
+>      list.add("CSS");    <br>
+>      list.add("JavaScript");    <br>
+>      //Printing the arraylist object  <br>   
+>      System.out.println(list);  <br>
+>  }  <br>
+> }  
+
+<br> <br>
