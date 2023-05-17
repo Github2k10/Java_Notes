@@ -333,3 +333,8 @@
 > 'HashMap', 'LinkedHashMap', and 'TreeMap' are the implementation of the 'Map' interface. A Map can't be traversed, so we need to convert it into Set using keySet() or entrySet() method.
 
 <br> <br>
+
+**22. What is difference between Map and SortedMap?**
+> *Answer:* The main difference between 'Map' and 'SortedMap' interfaces in java is that 'SortedMap' guarantees that the keys in the map are sorted in ascending order according to their natural ordering or a specified comparator. 'SortedMap' is an interface of the 'Map' interface and adds additional methods that supports the ordering of keys, such as 'firstKey()', 'lastKey()', 'subMap()', etc.
+
+<br> <br>
