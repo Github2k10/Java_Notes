@@ -338,3 +338,15 @@
 > *Answer:* The main difference between 'Map' and 'SortedMap' interfaces in java is that 'SortedMap' guarantees that the keys in the map are sorted in ascending order according to their natural ordering or a specified comparator. 'SortedMap' is an interface of the 'Map' interface and adds additional methods that supports the ordering of keys, such as 'firstKey()', 'lastKey()', 'subMap()', etc.
 
 <br> <br>
+
+**23. What is a HashMap?**
+> *Answer:* 'HashMap' is a class in Java that implements the 'Map' interface to store key-value pairs. It provides constant-time performance for basic operation such as inserting, removing, and retrieving elements. Internally, 'HashMap' uses an array and a hash function to store the key value pairs and to locate elements quickly based on their key. The hash function generates an integer hash code for each key, which is used to compute the index of the corresponding entry in the array. <br>
+> 'HashMap' allows null values for both keys and values, and it is not synchronized, meaning that it is not thread-safe by default. However, it can be made thread-safe by using the 'Collections.synchronizedMap()' method, which returns a synchronized version of the map. <br>
+> Example: <br>
+> Map<Integer, String> map = new HashMap<>(); <br>
+> map.put(1, "java");
+> map.put(2, "HTML");
+> map.put(3, "CSS");
+> map.get(2); // Output: HTML
+
+<b> <br>
