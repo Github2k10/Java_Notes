@@ -98,3 +98,25 @@
 > HTML 
 
 <br> <br>
+
+**8. How do you sort an ArrayList?**
+> *Answer:* To sort an ArrayList in Java we can use sort() method of Collections framework, we can use Comparable interface, we can use comparator interface, we can also use sorting algorithms, etc. <br>
+> Here are the example of sorting an ArrayList using sort() method of Collections framework <br> <br>
+> import java.util.ArrayList; <br>
+> import java.util.Collections; <br> <br>
+> public class ArrayListSortExample { <br>
+> public static void main(String[] args) { <br>
+> ArrayList<Integer> numbers = new ArrayList<Integer>(); <br>
+> numbers.add(5); <br>
+> numbers.add(3); <br>
+> numbers.add(9); <br>
+> numbers.add(1); <br> <br>
+> Collections.sort(numbers); <br> <br>
+> for (int number : numbers) { <br>
+> System.out.print(number + " "); <br>
+> } <br>
+> } <br>
+> } <br>
+> Output: 1 3 5 9
+
+<br> <br>
