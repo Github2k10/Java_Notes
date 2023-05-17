@@ -268,3 +268,8 @@
 > [Java, HTML, JavaScript]
 
 <br> <br>
+
+**14. What are the important interfaces related to the Set Interface?**
+> *Answer:* 'SortedSet', 'NavigableSet', 'HashSet', 'TreeSet', and 'LinkedHashSet' are the related to the Set interface. 
+
+<br> <br>
