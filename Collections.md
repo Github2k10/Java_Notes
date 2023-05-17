@@ -224,3 +224,14 @@
 > 1 David 
 
 <br> <br>
+
+**11. What is Vector class? How is it different from an ArrayList?**
+> *Answer:* Vector is like the dynamic array (ArrayList) which can grow or shrink its size. We can store n-number of elements in it as there is no size limit. It is a part of Collection framework since Java 1.2. It implements the List interface. <br>
+> It is recommended to use Vector class in the thread-safe implementation only. If we don't need to use the thread-safe implementation, we should use the ArrayList. <br>
+> Here are some points that make Vector class different from an ArrayList: <br>
+> 1. Vector is synchronized. <br>
+> 2. Java Vector contains many legacy methods that are not part of a collection's framework. <br>
+> 3. Vector is thread-safe that means multiple threads can access and modify a Vector object concurrently without causing any data corruption or inconsistency issues. <b>
+> 4. ArrayList is generally faster than Vector because it is not synchronized by default.
+
+<br> <b>
