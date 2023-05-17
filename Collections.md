@@ -283,3 +283,8 @@
 > | It has several implementations, including 'HashSet', 'TreeSet', and 'LinkedHashSet'. | Only one implementation 'TreeSet' | 
 
 <br> <br>
+
+**16. Can you give examples of classes that implement the Set Interface?**
+> *Answer:* 'HashSet', 'TreeSet', 'LinkedHashSet', and 'EnumSet' are the classes that implement the Set interface. 
+
+<br> <br>
