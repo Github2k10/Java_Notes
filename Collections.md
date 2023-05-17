@@ -325,3 +325,11 @@
 > The 'PriorityQueue', 'LinkedList', and 'PriorityBlockingQueue' are the implementations of 'Queue' interface.
 
 <br> <br>
+
+**21. Can you briefly explain about the Map Interface?**
+> *Answer:* The 'Map' interface in Java represents a collection of key-value pairs, where each key is associated with a value. It is similar to a dictionary or an associated keys, and supports operations for adding, updating, and removing key-value paris.  <br>
+> The 'Map' interface extends the 'Collection' interface, but unlike other collection interfaces, it defines two type parameters, one for the key type and one for the value type. <br>
+> put(K key, V value), get(Object key), remove(Object key), containsKey(Object k), etc. are the important methods declared in the 'Map' interface. <br>
+> 'HashMap', 'LinkedHashMap', and 'TreeMap' are the implementation of the 'Map' interface. A Map can't be traversed, so we need to convert it into Set using keySet() or entrySet() method.
+
+<br> <br>
