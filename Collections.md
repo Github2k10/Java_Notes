@@ -246,3 +246,25 @@
 > 4. ArrayList uses a contiguous block of memory to store elements, which can lead to wasted space it the initial capacity is too high, or if elements are removed from the middle of the list. In contrast, LinkedList only uses as much memory as necessary to store the nodes and their references.
 
 <br> <br>
+
+**13. Can you briefly explain about the Set Interface?**
+> *Answer:* The Set interface in Java is part of the java.util package and is used to store a collection of unique elements. In other words, a Set can contain no duplicate elements. The Set interface extends the Collection interface and adds a few extra methods to ensure uniqueness and provide additional functionality for dealing with sets. The elements in a Set are not ordered in any particular way. Set implementations are optimized for fast membership testing, which means we can quickly check if an element is present in the set or not. <br>
+> Example: <br> <br>
+> import java.util.*;   <br>
+> public class setExample{   <br>
+> public static void main(String[] args)   <br>
+> {<br>
+> Set<String> data = new LinkedHashSet<String>();   <br>
+> <br>
+> data.add("Java");   <br>
+> data.add("HTML");   <br>
+> data.add("JavaScript");   <br>
+> data.add("Java");   <br>
+> <br>
+> System.out.println(data);   <br>
+> }   <br>
+> }   <br> <br>
+> Output: <br>
+> [Java, HTML, JavaScript]
+
+<br> <br>
