@@ -366,3 +366,7 @@
 > There are other methods present in the HashMap such as 'clear()', 'putAll()', 'replace()', and more. 
 
 <br> <br>
+
+**25. What is a TreeMap? How is different from a HashMap?**
+> *Answer:* 'TreeMap' is a class in java that implements the 'SortedMap' interface and stores key-value pairs in a sorted order based on the natural ordering of the kys or a custom 'Comparator'. It uses a self-balancing binary search tree to maintain the keys in sorted order, which allows for efficient search, insertion, and deletion operations with a time complexity of O(log n), where n is the number of key-value pairs in the map. <br>
+> The main difference between 'TreeMap' and 'HashMap' is that 'TreeMap' maintains the keys in the sorted order, while 'HashMap' does not specify any order of the keys. And typically 'HashMap' provides faster performance than 'TreeMap'.
