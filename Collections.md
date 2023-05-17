@@ -319,3 +319,9 @@
 > *Answer:* 'TreeSet', 'ConcurrentSkipListSet', 'SubSet', and 'DescendingSet' are the examples of implementations of NavigableSet. 
 
 <br> <br>
+
+**20. Explain briefly about Queue Interface?**
+> *Answer:* The 'Queue' interface in Java represents a collection that is designed to hold elements in a specific order for processing. It is similar to list, but with additional operations that support queue-like behavior. Specifically, a queue allows elements to be added to end, and removed from the other end, following a first-in, first-out (FiFO) ordering. The 'Queue' interface extends the 'Collection' interface, and adds several methods for enqueue and dequeue elemets, as well as for inspecting the head and tail of the queue. <br>
+> The 'PriorityQueue', 'LinkedList', and 'PriorityBlockingQueue' are the implementations of 'Queue' interface.
+
+<br> <br>
