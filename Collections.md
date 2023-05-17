@@ -235,3 +235,14 @@
 > 4. ArrayList is generally faster than Vector because it is not synchronized by default.
 
 <br> <b>
+
+**12. What is LinkedList? What interfaces does it implement? How is it different from an ArrayList?**
+> *Answer:* LinkedList is another implementation of the List interface in java, which is used to store a sequence of elements in a linked list data structure. In a linked list, each element is stored as a node that contains a reference to the next node in the list. This makes it easy to add or remove elements from the list, but it can also incur a performance penalty compared to arrays for certain types of operations. <br>
+> In addition to the List interface, LinkedList also implements the Deque interface, which provides methods for adding or removing elements from ends of the list. <br> <br>
+> Here are some of the differences between LinkedList and ArrayList in Java: 
+> 1. ArrayList is generally faster than LinkedList for random access and iteration operations because it provides direct access to elements using an index.
+> 2. ArrayList is more efficient for random access operations, while LinkedList is more efficient for adding or removing elements in the middle of the list. <br>
+> 3. ArrayList is generally faster than LinkedList for random access and iteration operations because it provides direct access to elements using an index. 
+> 4. ArrayList uses a contiguous block of memory to store elements, which can lead to wasted space it the initial capacity is too high, or if elements are removed from the middle of the list. In contrast, LinkedList only uses as much memory as necessary to store the nodes and their references.
+
+<br> <br>
