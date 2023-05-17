@@ -350,3 +350,19 @@
 > map.get(2); // Output: HTML
 
 <b> <br>
+
+**24. What are the different methods in a Hash Map?**
+> *Answer:* Here are some of the commonly used methods of HashMap: <br>
+> 1. 'put(K Key, V value)': this is used to associate the specified value with a specified key in the map, or it will update the value if the key already exists. <br>
+> 2. 'get(Object o)': it will return the value associated with the specified key in the map or return null it key is not there. <br>
+> 3. 'remove(Object key)': remove the key-value pair with a specified key from the map, and return the key-value pair. If the key is not there, it will return null. <br>
+> 4. 'containsKey(Object key)': returns 'true' if key present in the map else returns 'false'. <br>
+> 5. 'containsValue(Object Value)': return 'true' if the value present in the map, it will return 'false'. <br>
+> 6. 'size()': it returns the number of key-value pairs in the map. <br>
+> 7. 'isEmpty()': returns 'true' if the map is empty, else returns 'false'. <br>
+> 8. 'keySet()': returns a 'Set' containing all the keys in the map. <br>
+> 9. 'values()': returns a 'Collections' containing all the values in the map. <br>
+> 10. 'entrySet()': returns a 'Set' containing all the key-value pairs in the map as 'Map.Entry' object. <br>
+> There are other methods present in the HashMap such as 'clear()', 'putAll()', 'replace()', and more. 
+
+<br> <br>
