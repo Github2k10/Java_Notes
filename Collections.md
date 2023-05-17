@@ -68,3 +68,8 @@
 > }  
 
 <br> <br>
+
+**6. Can an ArrayList have Duplicate elements?**
+> *Answer:* Yes, ArrayList can have duplicate elements. 
+
+<br> <b>
