@@ -73,3 +73,28 @@
 > *Answer:* Yes, ArrayList can have duplicate elements. 
 
 <br> <b>
+
+**7. How do you iterate around an ArrayList using Iterator?**
+> *Answer:* Here is an example of how we can iterate around an ArrayList: <br> <br>
+> import java.util.ArrayList; <br>
+> import java.util.Iterator; <br>
+> public class ArrayListIteratorExample { <br>
+> public static void main(String[] args) { <br>
+> ArrayList<String> list = new ArrayList<String>(); <br>
+> list.add("Java"); <br>
+> list.add("JavaScript"); <br>
+> list.add("HTML"); <br>
+>  <br>
+> Iterator<String> iterator = list.iterator(); <br>
+> while (iterator.hasNext()) { <br>
+> String fruit = iterator.next(); <br>
+> System.out.println(fruit); <br>
+> } <br>
+> } <br>
+> } <br> <br>
+> Output: <br>
+> Java <br>
+> JavaScript <br>
+> HTML 
+
+<br> <br>
