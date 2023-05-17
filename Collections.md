@@ -5,7 +5,7 @@
 > Collection provide efficient storage and retrieval, dynamic data structures, polymorphism, and standardized interfaces that's make collections important part of Java programming.
 
 <br> <b>
- 
+
  
 **2. What are the important interfaces in the Collection Hierarchy?**
 > *Answer:* The most important interface in the collection hierarchy are: <br>
