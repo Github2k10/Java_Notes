@@ -6,7 +6,6 @@
 
 <br> <b>
 
- 
 **2. What are the important interfaces in the Collection Hierarchy?**
 > *Answer:* The most important interface in the collection hierarchy are: <br>
 > 1. Collection Interface: This is the root interface of the java collection framework. It defines the basic methods that all Collections should have, such as add(), remove(), and size(), etc. <br>
