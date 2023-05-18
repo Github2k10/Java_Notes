@@ -25,3 +25,11 @@ Part-8: Exception Handling
 > *Answer:* The finally block in exception handling serves an important purpose by allowing us to specify code that will be executed regardless of whether an exception occurred or not. The 'fianlly' block is executed regardless of whether an exception is thrown and caugth or progagtes up the call stack. 'finally' block is used for many purposes like reource cleanup, guaranteeing execution, consistency and maintainability, etc.
 
 <br> <br>
+
+**4. In what scenarios is code in finally not executed?**
+> *Answer:* Although, in most of the scenarios the 'finally' block will execute. But here are few scenarios in which finally block will not execute: <br>
+> - System exit: if the program terminated abruptly using 'System.exit()' before reaching the 'finally' block, the code within the finally block will not be executed. <br>
+> - Infinite loop or deadlock: If the code within the 'try' or 'catch' blocks enters an infinite loop or encounters a deadlock situation. preventing the program from progressing, the 'finally' block may not be exceuted. <br>
+> - Unhandled exceptions: If an unhandled exception occurs in the 'try' block, which propagates up the call stack and is not caught by any catch block, the 'finally' block may not be executed. 
+
+<br> <br>
