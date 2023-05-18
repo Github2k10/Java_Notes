@@ -20,3 +20,8 @@ Part-8: Exception Handling
 > - Finally block(optional): Optionally, a finaly block can be used after the catch block. The code within the finally block is executed regardless of whether an exception occurred or not. It is typically used to perform cleanup operations or release resoures.
 
 <br> <br>
+
+**3. What is the need for finally block?**
+> *Answer:* The finally block in exception handling serves an important purpose by allowing us to specify code that will be executed regardless of whether an exception occurred or not. The 'fianlly' block is executed regardless of whether an exception is thrown and caugth or progagtes up the call stack. 'finally' block is used for many purposes like reource cleanup, guaranteeing execution, consistency and maintainability, etc.
+
+<br> <br>
