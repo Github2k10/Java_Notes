@@ -11,3 +11,12 @@ Part-8: Exception Handling
 > - Exception handling allows us to gracefully recover from errors and provides a better user experience.
 
 <br> <br>
+
+**2. What design pattern is used to implement Exception handling Features in most languages?**
+> *Answer:* 'Chain of Responsibility' design pattern is used to implement Exception handling Features in most languages. This provides a structured apporach to handling exceptions and is typcially implemented using a combination of try-catch blocks. <br>
+> Here's how the Exception Handling design pattern works:
+> - Try block: The code that might throw an exception is enclosed withing a try block. If an exception occurs within the try block, the normal flow of execution is interrupted, and the corresponding catch block is searched for to handle the exception. <br>
+> - Catch block: A catch block follow the try block and specifies the type of exception it can handle. If an exception of that type is thrown within the try block or any of its nested blocks, the catch block is executed. Multiple catch blocks can be chained together to handle different types of exceptions. <br>
+> - Finally block(optional): Optionally, a finaly block can be used after the catch block. The code within the finally block is executed regardless of whether an exception occurred or not. It is typically used to perform cleanup operations or release resoures.
+
+<br> <br>
