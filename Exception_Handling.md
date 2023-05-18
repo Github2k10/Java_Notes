@@ -63,3 +63,17 @@ Part-8: Exception Handling
 >   - OutOfMemeoryError
 
 <br> <br>
+
+**7. What is the difference between Error and Exception?**
+> *Answer:* <br>
+> | Error | Exception |
+> | ----- | --------- |
+> | Error cannot be recoverd. | Exception can be recovered by using the try-catch block. |
+> | All errors in java are unchecked. | Exceptions are classified into two parts ie. checked and unchecked. |
+> | It occurs at run time. | It occurs at compile time or run time. |
+> | It belongs to java.lang.Error package. | it belongs to java.lang. Exception package. |
+> | It will not be known to the compiler. | Only checked exceptions are known to the compiler. |
+> | It is mostly caused by the environment in which the application is running. | It is mainly caused by the application itself. |
+> | StackOverFlow, OutOfMemeoryError are the example of Error. | SQLException, NullPointerException are the example of Exception. | 
+
+<br> <br>
