@@ -38,3 +38,28 @@ Part-8: Exception Handling
 > *Answer:* Yes, it is allowed to have a 'try' block without a corresponding 'catch' block in java. However, if we omit the 'catch' block, we must include a 'finally' block to handle the exception or perform necessary cleanup operations.
 
 <br> <br>
+
+**6. Can you explain the hierarchy of Exception Handling classes?**
+> *Answer:* java.lang.Throwable class is the root of hierarchy of Exception Handling classes. It is the super class of all the exception and errors calsses. <br>
+> Exception is the subclass of 'Throwable' that represents exceptional conditions that can be caugth and handled by the program. <b>
+> 'java.lang.RuntimeException' is a subclass of 'Exception' that represents exceptions that can occure during runtime and are typically unchecked. They do not need the explicitly declared or caught. <br>
+> 'java.lang.Erro' is another subclass of 'Throwable' that represents serious errors that are typically caused by external factores or conditions beyond the control of the program. <br>
+> Here's the hierarchy of Exception classes: <br>
+>
+> Throwable
+> - Exception
+>   - IOException
+>   - SQLException
+>   - ClassNotFoundException
+>   - RuntimeException
+>     - ArithmeticException
+>     - NullPointerException
+>     - NumberForamtException
+>     - IndexOutOfBoundException
+> 
+> - Error
+>   - StackOverflowError
+>   - VirtualMachineError
+>   - OutOfMemeoryError
+
+<br> <br>
