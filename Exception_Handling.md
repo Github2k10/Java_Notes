@@ -33,3 +33,8 @@ Part-8: Exception Handling
 > - Unhandled exceptions: If an unhandled exception occurs in the 'try' block, which propagates up the call stack and is not caught by any catch block, the 'finally' block may not be executed. 
 
 <br> <br>
+
+**5. Is try without a catch is allowed?**
+> *Answer:* Yes, it is allowed to have a 'try' block without a corresponding 'catch' block in java. However, if we omit the 'catch' block, we must include a 'finally' block to handle the exception or perform necessary cleanup operations.
+
+<br> <br>
